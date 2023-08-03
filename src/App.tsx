@@ -14,7 +14,7 @@ function App() {
         <p>
           Environment <code>{REACT_APP_NODE_ENV}</code> {REACT_APP_OTHER_ENV}
         </p>
-        <p>Today: {new Date().toLocaleString()}</p>
+        <p>Today is: {new Date().toLocaleString()}</p>
       </header>
     </div>
   );
